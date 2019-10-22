@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="../css/tasks.css" />
+    <title>Task Manager</title>
+  </head>
+  <body>
+      <div class="tasks">
+        <form class="form_tasks">
+            <ul>
+                <legend>New Task</legend>
+                <li>
+                    <label>Task Name</label>
+                    <input type="text" name="task_name" id="task_name" class="task_name" placeholder="Enter Name"></input>
+                </li>
+                <li>
+                    <label>Task Urgency</label>
+                    <select name="urgency" class="urgency" id="urgency">
+                        <option value="Low">Low</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Critical">Critical</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Task Description</label>
+                    <textarea id="description" name="description" class="description" placeholder="Type Description"></textarea>
+                </li>
+                <li>  
+                    <button type="submit" id="submit_task" name="submit_task">Submit Task</button>
+                    <a href="../htmls/task_manager.html">Existing Tasks</a>
+                </li> 
+            </ul>
+        </form>
+        
+      </div>
+    <script src="../js/tasks.js"></script>
+  </body>
+</html>

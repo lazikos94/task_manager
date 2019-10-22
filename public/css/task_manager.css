@@ -1,0 +1,133 @@
+.task_manager{
+    background-color: lightblue;
+    height: auto;
+    float: left;
+    width: 50%;
+    overflow: auto;
+
+}
+.update_task{
+    background-color: lightblue;
+    height: auto;
+    width: 40%;
+    overflow: auto;
+    margin-right: 50px;
+    float: right;
+}
+.db_content{
+    border-style:solid;
+    border-color: black;
+    border-width: 2px;
+    height: auto;
+    width:100%;
+    background-color: skyblue;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+.updater{
+    box-sizing: border-box;
+    border-top: black solid;
+    border-width: 2px;
+    height: auto;
+    width:100%;
+    background-color: skyblue;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 10px;
+}
+body{
+    background: crimson;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+#urgency{
+float: left;
+    font-weight: bold;
+}
+#task_name{
+float: left;
+    font-weight: bold;
+}
+
+#update{
+    float: right;
+    width: 25%;
+}
+#delete{
+    float: right;
+    width: 25%;
+}
+.update_title{
+    color: darkgreen;
+    font-weight: bold;
+}
+.update_description{
+    margin-top: 10px;
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    resize: none;
+    border: none;
+}
+.update_description:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+
+.update_urgency{
+    margin-top: 10px;
+    width: 90%;
+    padding: 16px 20px;
+    border: none;
+    background-color: #f1f1f1;
+}
+.update_urgency:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+#task_id{
+    line-height: 30px;
+    color: #2d2e2e;
+    font-weight: 600;
+}
+#update_task_name{
+    line-height: 30px;
+    color: #2d2e2e;
+    font-weight: 600;
+
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+input[type=button]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+p{
+    word-break: break-all;
+}
