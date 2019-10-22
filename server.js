@@ -12,7 +12,7 @@ app.listen(port, ()=> console.log('connected to port',port));
 app.use(express.static(__dirname + '/public'));
 app.use(express.json({limit:'10mb'}));
 const mongodb = 'mongoDatabase';
-const url_mongo = 'mongodb://lazaros:rexulhrt@localhost:27017/mongoDatabase';
+const url_mongo = 'mongodb://"infohere"@localhost:27017/mongoDatabase';
 
 app.get('/', function(req, res){
     res.sendFile('task_manager.html', { root: __dirname + "/public/htmls" } );
